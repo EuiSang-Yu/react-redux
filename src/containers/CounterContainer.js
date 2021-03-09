@@ -32,6 +32,7 @@ const mapStateToProps = ({ counter }) => ({
 //   increment: () => dispatch(increment()),
 //   decrement: () => dispatch(decrement())
 // });
+//
 
 // **** 함수가 아닌 객체 설정시 자동 bindActionCreators 됨
 const mapDispatchToProps = { increment, decrement };
