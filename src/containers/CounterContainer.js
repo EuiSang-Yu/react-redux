@@ -22,7 +22,7 @@ class CounterContainer extends Component {
     );
   }
 }
-
+//chk
 const mapStateToProps = ({ counter }) => ({
   color: counter.color,
   number: counter.number
